@@ -1,23 +1,28 @@
-
- <!-- Side navigation 
-<div markdown="1">
-
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-
-</div> -->
-
-<!-- Page content -->
 <div markdown="2" class="main">
   
   # *tigerFish*
   
 </div> 
 
-TigerFish
+Image Processing with C++.
 
+Dependency: stb_image 
+
+###### Directory Structure.
+
+```
+../
+└── tigerFish/
+	├── include/
+	│   ├── stb_image.c
+	│   └──image.hpp
+	└── src/
+	    ├── image.cpp
+	    └── main.cpp
+```
+###### Image Class Members.
+
+<!-- 
 ```
 tigerFish/
 └── src
@@ -49,3 +54,4 @@ tigerFish/
 	    ├── .cpp
 	    └── .cpp
 ```
+-->
