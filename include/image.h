@@ -3,8 +3,9 @@
 
 //#include<stb_image.h>
 //#include<stb_image_write.h>
-#include<iostream>
-#include<stdint.h>
+#include <iostream>
+#include <stdint.h>
+#include <base64.hpp>
 
 enum ImageTypes{PNG, JPG, BMP, TGA};
 
