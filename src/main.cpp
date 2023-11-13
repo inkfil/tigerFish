@@ -47,9 +47,9 @@ int main(int argc, char **argv){
 //	diffmap.diffMapScale(diffmapscale, 4);
 //	diffmap.write("images/diffofdiffmaps.png");
 
-	Image gray("images/gavg.png");
+	Image gray("../images/gavg.png");
 	gray.grayscaleToRGB();
-	gray.write("images/grayToRGB.png");
+	gray.write("../images/grayToRGB.png");
 
 	return 0;
 }
